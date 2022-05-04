@@ -26,7 +26,6 @@ In this case, you need to manually install the dependencies.
 
 ```
 cd RLVNS
-python3 env_cardiac_gym_hypertension_stable.py
+python3 env_cardiac_gym_healthy_stable.py
 ```
-
-In this case, you need to manually install the dependencies.
+From the example above, the RL agent is trained for the interaction with rat healthy cardiac model without exercise (stable). The default RL algorithm is PPO. The epsiode reward will be saved in a csv file during training, and the policy will be saved after training.
