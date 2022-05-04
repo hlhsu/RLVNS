@@ -17,7 +17,16 @@ pip3 install gym
 pip3 install matplotlib
 pip3 install stable-baselines
 
-git clone https://github.com/hlhsu/RLDBS.git
+git clone https://github.com/hlhsu/RLVNS.git
+```
+
+In this case, you need to manually install the dependencies.
+
+### Examples:
+
+```
+cd RLVNS
+python3 env_cardiac_gym_hypertension_stable.py
 ```
 
 In this case, you need to manually install the dependencies.
