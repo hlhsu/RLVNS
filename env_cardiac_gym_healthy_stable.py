@@ -341,18 +341,8 @@ class CardiacModel_Env(Env):
 
             while len(self.historystates) < 4:#10
 
-                # if len(self.historystates) == 0:
-                #     self.historystates += list(state.flatten())
-                # else:
-                #     self.historystates += list(state.flatten())
-
-                self.historystates += list(state.flatten())
-
-
-            # for indexs in range (5):
-            #     self.historystates[indexs * 2:indexs * 2+2] = state
-            #     print('howard')
-
+             
+                self.historystates += list(state.flatten()
         
         else:
 
@@ -360,21 +350,6 @@ class CardiacModel_Env(Env):
             self.historystates.pop(0)
 
             self.historystates.append(state.flatten())
-
-            # list_historystate = list(self.historystates)
-
-            # list_historystate.pop(0)
-            # list_historystate.pop(0)
-
-            # list_historystate.insert(5,state[0])
-            # list_historystate.insert(6,state[1])
-
-            # self.historystates = np.array(list_historystate)
-        
-        # self.historystates[-2:] = setpoint
-     
-
-
           
         
         
