@@ -391,17 +391,11 @@ class CardiacModel_Env(Env):
 
         if self.consider_sp:
             hist = (np.array(self.listhistory+ list(self.setpoints.flatten()))).reshape(1, -1).flatten()
-        
-            
-
-            # print('howard: ', hist)
-
+       
 
             return hist, rew, self.done, {} # self.state
         
         else:
-
-            # print('howard: ', self.listhistory)
 
 
             return np.array(self.listhistory), rew, self.done, {} # self.state
