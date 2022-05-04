@@ -342,7 +342,7 @@ class CardiacModel_Env(Env):
             while len(self.historystates) < 4:#10
 
              
-            self.historystates += list(state.flatten()
+                self.historystates += list(state.flatten()
         
         else:
 
